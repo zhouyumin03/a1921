@@ -1,0 +1,6 @@
+#this is sample
+stacktest:stacktest.c stack.c
+	gcc stacktest.c stack.c -o stacktest
+
+clean:
+	rm stacktest
