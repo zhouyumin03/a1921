@@ -1,0 +1,6 @@
+#this is sample
+duilietest: queue.c queuetest.c
+		gcc queue.c queuetest.c -o queuetest
+
+clean:
+		rm queuetest
